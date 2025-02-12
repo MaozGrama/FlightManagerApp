@@ -75,7 +75,7 @@ class FlightSerializer(serializers.ModelSerializer):
             'id', 
             'origin_country_id', 
             'destination_country_id', 
-            'airline_company_id_id', 
+            'airline_company_id', 
             'departure_time', 
             'landing_time', 
             'remaining_tickets', 
