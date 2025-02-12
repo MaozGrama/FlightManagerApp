@@ -1,0 +1,110 @@
+#result{
+    margin-left: -35px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    border: 10px;
+  }
+  
+  
+  
+  #airlinesearchbutton{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 10px;
+    /* margin-left: 2px; */
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 120px;
+  }
+  
+  #airlinesearchid{
+    margin-top: 21px;
+    font-size: medium;
+    width: 120px;
+    height: 26.5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+
+  #airlineremovedsuccessfully{
+    color: white;
+    font-size: medium;
+  }
+  
+  
+  
+  #removeairlinebutton{
+    background-color: #d2655b;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  
+  
+  #adminaddairline{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  
+  
+
+
+
+
+
+
+  #airlineresults {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #a0cefd;
+    border-radius: 5px;
+    margin-left: 460px;
+    width: 500px;
+    padding: 5px;
+    background-color: #4b92b6;
+  }
+  
+  #airlineresults label {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  #airlineresults span {
+    font-style: italic;
+    margin-top: -5px;
+  }
+  
+  #airlinefield {
+    margin-top: -5px;
+    color: #f6e6d0;
+  }
+  

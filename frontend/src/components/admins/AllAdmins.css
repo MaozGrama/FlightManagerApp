@@ -1,0 +1,109 @@
+#result{
+    margin-left: -35px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    border: 10px;
+  }
+
+  
+  #selectadmin{
+    font-size: larger;
+  }
+  
+  #adminsearchbutton{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 120px;
+  }
+  
+  #adminsearchid{
+    margin-top: 21px;
+    font-size: medium;
+    width: 120px;
+    height: 26.5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  #adminremovedsuccessfully{
+    color: white;
+    font-size: medium;
+  }
+  
+
+  
+  #removeadminbutton{
+    background-color: #d2655b;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  
+  
+  #adminaddadmin{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  
+  
+  #adminresults {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #a0cefd;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 500px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #4b92b6;
+  }
+  
+  #adminresults label {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  #adminresults span {
+    font-style: italic;
+  }
+  
+  #adminfield {
+    color: #fffdfd;
+  }
+
+
+
+

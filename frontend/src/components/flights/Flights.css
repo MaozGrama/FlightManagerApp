@@ -1,0 +1,323 @@
+/* #search{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 18.5px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+
+span{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+select{
+  height: 30px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+#switch{
+  height: 30px;
+  border: none;
+  border-radius: 9px;
+  width: 75px;
+  margin-top: 9.5px;
+}
+
+#switchword{
+  height: 20px;
+  border-radius: 5px;
+  width: 75px;
+  color: black;
+}
+
+#clear{
+  background-color: #f18c81;
+  border: none;
+  color: white;
+  padding: 6.6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 18.5px;
+  margin-left: 2px;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+  
+
+
+#departure{
+  border-radius: 5px; 
+  border: none;
+  height: 29.3px;
+  width: 150px;
+  margin-left: 1px;
+  margin-top: 0.4px;
+}
+
+#landing{
+  border-radius: 5px; 
+  border: none;
+  height: 29.3px;
+  width: 150px;
+  margin-left: 2px;
+  margin-top: 0.4px;
+}
+
+
+#SearchForm{
+  display: flex;
+  flex-direction: row;
+  margin-left: 280px;
+  margin-top: 40px;
+
+}
+
+#noflights{
+    margin-left: -45px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+
+.flight-result {
+    display:flex;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-left: -40px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+  }
+
+#addticket{
+    display:flex;
+    flex-direction: row;
+  }
+  .flight-result p{
+    animation: color-transition 10s infinite;
+  }
+  
+  @keyframes color-transition {
+
+    30% {
+      background-color: rgb(162, 176, 189);
+
+    }
+  }
+  .flight-result p {
+    flex:1;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    background-color: #a5b4c5;
+  }
+  
+  .flight-result p:nth-child(odd) {
+    background-color: #c3d4ea;
+  }
+  
+
+
+#A{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/
+
+
+
+
+#search{
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 6.6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 18.5px;
+  margin-left: 2px;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+
+span{
+  color: aliceblue;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+select{
+height: 30px;
+border-radius: 5px;
+width: 150px;
+}
+
+#switch{
+height: 30px;
+border: none;
+border-radius: 9px;
+width: 75px;
+margin-top: 9.5px;
+}
+
+#switchword{
+height: 20px;
+border-radius: 5px;
+width: 75px;
+color: black;
+}
+
+#clear{
+background-color: #f18c81;
+border: none;
+color: white;
+padding: 6.6px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 18.5px;
+margin-left: 2px;
+cursor: pointer;
+font-weight: bolder;
+border-radius: 5px;
+}
+
+
+
+#departure{
+border-radius: 5px; 
+border: none;
+height: 29.3px;
+width: 150px;
+margin-left: 1px;
+margin-top: 0.4px;
+}
+
+#landing{
+border-radius: 5px; 
+border: none;
+height: 29.3px;
+width: 150px;
+margin-left: 2px;
+margin-top: 0.4px;
+}
+
+
+#SearchForm{
+display: flex;
+flex-direction: row;
+margin-left: 120px;
+margin-top: 80px;
+
+}
+
+#noflights{
+  margin-left: -45px;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
+
+
+.flight-result p{
+  animation: color-transition 10s infinite;
+}
+
+@keyframes color-transition {
+
+  30% {
+    color: rgb(55, 69, 150);
+
+  }
+}
+
+.flight-result p:nth-child(odd) {
+  color: #323335;
+}
+
+
+
+#A{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: none;
+}
+
+
+
+
+.flight-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-weight: bold;
+  margin-left: -45px;
+  padding-right: -10px;
+  border: none;
+}
+
+#addticket {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid ;
+  padding: 5px;
+  border-color: rgb(232, 222, 222);
+  text-align: center;
+  background-color: #c4c4c4;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.flight-info {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+

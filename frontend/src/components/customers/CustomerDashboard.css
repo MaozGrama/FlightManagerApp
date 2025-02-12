@@ -1,0 +1,112 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.tickets-section,
+.flights-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tickets-list,
+.flights-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ticket-item,
+.flight-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.flight-info p,
+.flight-details p {
+  margin: 8px 0;
+}
+
+.buy-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.buy-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  color: #dc3545;
+}
+
+.retry-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retry-button:hover {
+  background-color: #0056b3;
+}
+
+.no-tickets,
+.no-flights {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}

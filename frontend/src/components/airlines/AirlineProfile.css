@@ -1,0 +1,48 @@
+
+#airlineprofile{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    grid-gap: 1px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+#airlineupdateprofile{
+    background-color: #428fc2;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: medium;
+    border-width: 0.2px;
+}
+
+
+
+
+#inputfieldairlineprofile{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+}
+
+
+#inputfieldairlineprofile2{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+#inputfieldairlineprofile3{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}

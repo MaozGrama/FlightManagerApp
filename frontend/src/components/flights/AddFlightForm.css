@@ -1,0 +1,70 @@
+#clear{
+    background-color: #f18c81;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 18.5px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    }
+    
+    
+    
+#departure{
+    border-radius: 5px; 
+    border: none;
+    height: 29.3px;
+    width: 150px;
+    margin-left: 1px;
+    margin-top: 0.4px;
+}
+    
+#landing{
+    border-radius: 5px; 
+    border: none;
+    height: 29.3px;
+    width: 150px;
+    margin-left: 2px;
+    margin-top: 0.4px;
+}
+
+#tickets{
+    border-radius: 5px; 
+    border: none;
+    height: 27px;
+    width: 150px;
+    margin-left: 2px;
+    margin-top: 0.4px;        
+}
+    
+    
+#AddForm{
+    display: flex;
+    flex-direction: row;
+    margin-left: 83px;
+    margin-top: 80px;
+}
+
+
+#addflight{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 18.5px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  
+  }

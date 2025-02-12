@@ -1,0 +1,19 @@
+#addedsuccess{
+    color: rgb(21, 123, 26);
+}
+
+#add{
+    background-color: #20699a;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  
+  }

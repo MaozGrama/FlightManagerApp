@@ -1,0 +1,50 @@
+#addadminaddform{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#adminfield{
+    color: aliceblue;
+}
+
+
+#createadminbutton{
+    background-color: #428fc2;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: medium;
+    border-width: 0.1px;
+}
+
+
+#addairlinesuccess{
+    color: white;
+    font-size: medium;
+}
+
+
+
+#erroraddairline{
+    font-size: medium;
+    color: aliceblue;
+}
+
+
+#addadminsuccess{
+    color: white;
+    font-size: medium;  
+}
+
+
+#inputfieldadmin{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+}

@@ -1,0 +1,44 @@
+#addcustomerform{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+#field2{
+    color: rgb(0, 0, 0);
+    padding: 7px;
+}
+
+
+
+#createcustomerbutton{
+    background-color: #428fc2;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    align-items: center;
+    border-radius: 10px;
+    border-color: rgb(254, 254, 254);
+    font-size: medium;
+    border-width: 0.2px;
+}
+
+#erroraddcustomer{
+    font-size: medium;
+    color: aliceblue;
+}
+
+#addcustomersuccess{
+   
+    color: white;
+    font-size: medium;
+}
+
+#inputfielcustomer{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+}

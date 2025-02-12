@@ -1,0 +1,25 @@
+body{
+    background-image: url('/public/images/airplane.jpeg');
+    background-size: cover;
+}
+
+#Header{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: left;
+    color: aliceblue;
+}
+
+
+.icon {
+    background-image: url("/public/images/fma.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    text-align: left;
+    padding-inline: 200;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+  }
+  

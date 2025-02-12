@@ -1,0 +1,43 @@
+#updatebutton{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: 2px;
+    font-weight: bolder;
+    border-radius: 5px;
+  
+  }
+
+
+  #BBB{
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+
+
+
+#updateflight{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 6.6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+  
+  }
