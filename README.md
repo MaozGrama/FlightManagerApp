@@ -40,7 +40,15 @@ The system is built using **React (TypeScript) for the frontend** and **Django R
 
 ---
 
-## 📖 How to Use  
+## 📖 Backend - How to Use 
+## open up Terminal (CTRL + J) and run the following commands:
+cd FlightManagementApp  
+ ->  python manage.py runserver
+
+## Frontend - How to use
+# Open up a NEW Terminal (CTRL + J) and run the following commands:
+cd frontend 
+-> npm install -> npm start 
 
 ### **1️⃣ Administrator Setup**  
 1. **Create a superuser** through the terminal:  
